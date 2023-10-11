@@ -1,0 +1,47 @@
+/********** p **********/
+.p-grey { color: grey; }
+
+.p-white { color: white; }
+
+.p-grey { color: grey; }
+
+.p-m-grey { 
+    color: grey;
+    font-size: medium; 
+}
+
+.p-l-white {
+    color: white;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+/********** hover **********/
+.p-m-grey:hover {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.option:hover { 
+    color: white;
+}
+
+/********** NAVBAR **********/
+
+
+.logo {
+    width: 8em;
+}
+
+.logo-small {
+    width: 3em;
+    display: none;
+}
+
