@@ -5,7 +5,8 @@
 
 .p-grey { color: grey; }
 
-.p-m-grey { 
+.p-s-grey { 
+    font-size: smaller;
     color: grey;
 }
 
