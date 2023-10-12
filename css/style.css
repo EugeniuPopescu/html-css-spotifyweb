@@ -41,14 +41,12 @@ a:hover {
     color: white;
     scale: 1.1;
     transition: 0.5s;
-    padding-left: 5px;
-    border-left: 2px solid #1db954;
+    padding-left: 8px;
     
 }
 
 .option2:hover { 
     color: white;
-    scale: 1.1;
     transition: 0.5s;
 }
 
@@ -68,5 +66,5 @@ a:hover {
 
 /********** FOOTER **********/
 .sinister-footer {
-    width: 3.5rem;
+    width: 3rem;
 }
