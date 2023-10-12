@@ -22,7 +22,6 @@
 }
 
 .p-l-white {
-    color: white;
     font-size: large;
 }
 
@@ -48,11 +47,7 @@ a {
 }
 
 /********** hover **********/
-.p-m-grey:hover {
-    color: white;
-    scale: 1.1;
-    transition: 0.5s;
-}
+
 
 .install:hover {
     color: white;
@@ -61,14 +56,19 @@ a {
 .option:hover { 
     color: white;
     scale: 1.1;
-    transition: 0.5s;
+    transition: 0.1s;
     padding-left: 8px;
-    transition: 5s;
 }
 
 .option2:hover { 
     color: white;
-    transition: 0.5s;
+    transition: 0.1s;
+}
+
+.option3:hover { 
+    color: white;
+    border-bottom: 1px solid white;
+    transition: 0.1s;
 }
 
 .title:hover {
@@ -79,8 +79,16 @@ a {
 }
 
 .icon:hover {
-    transition: 0.3s;
+    transition: 0.1s;
     scale: 1.2;
+}
+
+
+.btn:hover {
+    border: 1px solid white;
+    color: white;
+    scale: 1.1;
+    transition: 0.3s;
 }
 
 /********** NAVBAR **********/
@@ -99,8 +107,11 @@ a {
 
 /********** CONTENT **********/
 /* main */
+
+
 .upgrade {
-    height: 10%;
+    height: 6em;
+    width: calc(100% - 12rem);
     background-color: #090b11a1;
 }
 
@@ -116,11 +127,6 @@ li {
     background-color: #090b11a1;
 }
 
-.btn:hover {
-    border: 1px solid white;
-    scale: 1.1;
-    transition: 0.3s;
-}
 
 /* recently played */
 .cover {
