@@ -4,12 +4,12 @@ body {
 
 :root {
     --navbar-width: 12rem;
-    --navbar-color: #010203;
+    --navbar-color: #000000;
 
     --section-color: #06032250;
 
     --footer-height: 90px;
-    --footer-color: #222;
+    --footer-color: #282828;
 }
 
 * {
