@@ -20,9 +20,17 @@ a {
     color: grey;
 }
 
+/********** overflow **********/
+.nome-playlist {
+    max-height: 12em;
+    overflow-y: auto;
+}
+
 /********** hover **********/
 .p-m-grey:hover {
     color: white;
+    scale: 1.1;
+    transition: 0.5s;
 }
 
 a:hover {
@@ -31,13 +39,26 @@ a:hover {
 
 .option:hover { 
     color: white;
+    scale: 1.1;
+    transition: 0.5s;
+    padding-left: 5px;
+    border-left: 2px solid #1db954;
+    
+}
+
+.option2:hover { 
+    color: white;
+    scale: 1.1;
+    transition: 0.5s;
 }
 
 /********** NAVBAR **********/
-
-
 .logo {
     width: 8em;
+}
+
+.top {
+    overflow: hidden;
 }
 
 .logo-small {
@@ -45,3 +66,7 @@ a:hover {
     display: none;
 }
 
+/********** FOOTER **********/
+.sinister-footer {
+    width: 3.5rem;
+}
