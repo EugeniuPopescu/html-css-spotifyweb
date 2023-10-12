@@ -69,6 +69,22 @@ a:hover {
     display: none;
 }
 
+/********** CONTENT **********/
+/* main */
+.upgrade {
+    height: 10%;
+    background-color: #090b11a1;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: #090b11a1;
+
+}
+
+
 /********** FOOTER **********/
 .sinister-footer {
     width: 3rem;
