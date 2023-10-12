@@ -3,6 +3,12 @@
 
 .p-white { color: white; }
 
+.p-white-bold { 
+    color: white; 
+    font-size: 15px;
+    font-weight: 700;
+}
+
 .p-grey { color: grey; }
 
 .p-s-grey { 
@@ -10,9 +16,20 @@
     color: grey;
 }
 
+.p-xs-grey { 
+    font-size: x-small;
+    color: grey;
+}
+
 .p-l-white {
     color: white;
     font-size: large;
+}
+
+.p-big-white { 
+    color: white;
+    font-size: 1.8em;
+    font-weight: 600; 
 }
 
 a {
@@ -26,6 +43,10 @@ a {
     overflow-y: auto;
 }
 
+.content {
+    overflow-y: auto;
+}
+
 /********** hover **********/
 .p-m-grey:hover {
     color: white;
@@ -33,7 +54,7 @@ a {
     transition: 0.5s;
 }
 
-a:hover {
+.install:hover {
     color: white;
 }
 
@@ -42,12 +63,19 @@ a:hover {
     scale: 1.1;
     transition: 0.5s;
     padding-left: 8px;
-    
+    transition: 5s;
 }
 
 .option2:hover { 
     color: white;
     transition: 0.5s;
+}
+
+.title:hover {
+    color: white;
+    border-bottom: 2px solid #1DB954;
+    padding-bottom: 5px;
+    transition: 0.2s;
 }
 
 .icon:hover {
@@ -76,14 +104,38 @@ a:hover {
     background-color: #090b11a1;
 }
 
+/* titles */
+li {
+    list-style: none;
+}
+
 .btn {
     padding: 10px 30px;
     border-radius: 25px;
-    border: 1px solid white;
+    border: 1px solid grey;
     background-color: #090b11a1;
-
 }
 
+.btn:hover {
+    border: 1px solid white;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+/* recently played */
+.cover {
+    width: 15%;
+}
+
+.img-cover {
+    width: 100%;
+}
+
+/* artist */
+.img-cover-radius {
+    width: 100%;
+    border-radius: 50%;
+}
 
 /********** FOOTER **********/
 .sinister-footer {
