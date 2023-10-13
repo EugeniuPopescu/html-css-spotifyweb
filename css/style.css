@@ -1,39 +1,3 @@
-/********** RESPONSIVE **********/
-@media screen and (max-width: 992px) {
-	.wrapper {
-		background-color: greenyellow;
-        width: 100%;
-	}
-
-   
-}
-
-/* CONTAINER, DA TABLET */
-@media screen and (max-width: 768px) {
-	.wrapper {
-		background-color: orange;
-	}
-
-    .cover-d {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-}
-
-/* CONTAINER, DA SMARTPHONE */
-@media screen and (max-width: 576px) {
-	.wrapper {
-		background-color: red;
-		flex-direction: column; /* <--------------------- ATTENZIONE! */
-	}
-
-   
-}
-
-
-
-
 /********** p **********/
 .p-grey { color: grey; }
 
@@ -166,12 +130,27 @@ li {
 
 
 /* recently played */
+.cover-d {
+    display: flex;
+}
+
 .cover {
-    width: 15%;
+    padding-left: 8px;
+    margin-bottom: 1em;
+    width: calc(100% / 6);
 }
 
 .img-cover {
     width: 100%;
+    display: block;
+}
+
+.play {
+    background-color: hsla(0, 0%, 0%, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: block;
 }
 
 /* artist */
@@ -221,3 +200,51 @@ li {
     appearance: none;
     background: grey;
 }
+
+
+
+/********** RESPONSIVE **********/
+@media screen and (max-width: 992px) {
+	.wrapper {
+        width: 100%;
+	}
+
+    .cover-d {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:baseline
+    }
+    
+    .cover {
+        width: calc(100% / 4);
+    }
+   
+}
+
+/* CONTAINER, DA TABLET */
+@media screen and (max-width: 768px) {
+    .cover-d {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:baseline
+    }
+    
+    .cover {
+        width: calc(100% / 2);
+    }
+
+}
+
+/* CONTAINER, DA SMARTPHONE */
+@media screen and (max-width: 576px) {
+	.wrapper {
+		background-color: red;
+		flex-direction: column; /* <--------------------- ATTENZIONE! */
+	}
+
+   
+}
+
+
+
+
