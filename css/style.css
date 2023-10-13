@@ -244,12 +244,42 @@ li {
 
 /* CONTAINER, DA SMARTPHONE */
 @media screen and (max-width: 576px) {
-	.wrapper {
-		background-color: red;
-		flex-direction: column; /* <--------------------- ATTENZIONE! */
-	}
+	.logo {
+        display: none;
+    }
 
+    .logo-small {
+        display: block;
+        width: 1.8em;
+    }
    
+    .goodbye {
+        display: none;
+    }
+
+    :root {
+        --navbar-width: 4rem;
+        --navbar-color: #000000;
+    
+        --section-color: #06032250;
+    
+        --footer-height: 90px;
+        --footer-color: #282828;
+    }
+    
+    
+    main > nav {
+        background: var(--navbar-color);
+        height: 100%;
+        width: var(--navbar-width);
+    }
+
+    .upgrade {
+        height: 6em;
+        width: calc(100% - 4rem);
+        background-color: hsla(225, 31%, 5%, 0.7);
+    }
+    
 }
 
 
