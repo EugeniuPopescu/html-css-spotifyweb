@@ -154,7 +154,7 @@
 .pb-128 { padding-bottom: 128px; }
 .pl-128 { padding-left: 128px; }
 .py-128 { padding: 128px 0; }
-.px-128 { padding: 0 margin}
+.px-128 { padding: 0 128px}
 
 /*** BACKGROUND COLORS ***/
 .bg-lightblue { background-color: lightblue; }

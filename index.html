@@ -233,50 +233,52 @@
                         </div>
 
                         <!-- recently played -->
-                        <div class="">
+                        <div >
                             <p class="p-big-white py-16">
                                 Recently played
                             </p>
 
-                            <div class="d-flex flex-justify-between">
-                                <div class="cover d-flex flex-column flex-align-center">
-                                    <img class="img-cover" src="./img/metal_lifting.jpg" alt="">
-                                    <p class="p-white-bold pt-16 pb-8">Heavy metal</p>
-                                    <p class="p-xs-grey">Subtitle</p>
-                                </div>
+                           <div class="playlist">
+                                <div class="cover-d d-flex flex-justify-between">
+                                    <div class="cover d-flex flex-column flex-align-center">
+                                        <img class="img-cover" src="./img/metal_lifting.jpg" alt="">
+                                        <p class="p-white-bold pt-16 pb-8">Heavy metal</p>
+                                        <p class="p-xs-grey">Subtitle</p>
+                                    </div>
 
-                                <div class="cover d-flex flex-column flex-align-center">
-                                    <img class="img-cover" src="./img/stranger.jpeg" alt="">
-                                    <p class="p-white-bold pt-16 pb-8">
-                                        Stranger Things Vol. 1 (a Nteflix Original Series SoundTrack)
-                                    </p>
-                                    <p class="p-xs-grey">Kule Dixon & Michael Stein</p>
-                                </div>
+                                    <div class="cover d-flex flex-column flex-align-center">
+                                        <img class="img-cover" src="./img/stranger.jpeg" alt="">
+                                        <p class="p-white-bold pt-16 pb-8">
+                                            Stranger Things Vol. 1 (a Nteflix Original Series SoundTrack)
+                                        </p>
+                                        <p class="p-xs-grey">Kule Dixon & Michael Stein</p>
+                                    </div>
 
-                                <div class="cover d-flex flex-column flex-align-center">
-                                    <img class="img-cover" src="./img/aquietplace.jpeg" alt="">
-                                    <p class="p-white-bold pt-16 pb-8">A quiet place</p>
-                                    <p class="p-xs-grey">Subtitle</p>
-                                </div>
+                                    <div class="cover d-flex flex-column flex-align-center">
+                                        <img class="img-cover" src="./img/aquietplace.jpeg" alt="">
+                                        <p class="p-white-bold pt-16 pb-8">A quiet place</p>
+                                        <p class="p-xs-grey">Subtitle</p>
+                                    </div>
 
-                                <div class="cover d-flex flex-column flex-align-center">
-                                    <img class="img-cover" src="./img/split.jpeg" alt="">
-                                    <p class="p-white-bold pt-16 pb-8">Split</p>
-                                    <p class="p-xs-grey">Subtitle</p>
-                                </div>
+                                    <div class="cover d-flex flex-column flex-align-center">
+                                        <img class="img-cover" src="./img/split.jpeg" alt="">
+                                        <p class="p-white-bold pt-16 pb-8">Split</p>
+                                        <p class="p-xs-grey">Subtitle</p>
+                                    </div>
 
-                                <div class="cover d-flex flex-column flex-align-center">
-                                    <img class="img-cover" src="./img/cure.jpeg" alt="">
-                                    <p class="p-white-bold pt-16 pb-8">A cure of wellness</p>
-                                    <p class="p-xs-grey">Subtitle</p>
-                                </div>
+                                    <div class="cover d-flex flex-column flex-align-center">
+                                        <img class="img-cover" src="./img/cure.jpeg" alt="">
+                                        <p class="p-white-bold pt-16 pb-8">A cure of wellness</p>
+                                        <p class="p-xs-grey">Subtitle</p>
+                                    </div>
 
-                                <div class="cover d-flex flex-column flex-align-center">
-                                    <img class="img-cover" src="./img/sinister.jpeg" alt="">
-                                    <p class="p-white-bold pt-16 pb-8">Sinister</p>
-                                    <p class="p-xs-grey">Subtitle</p>
+                                    <div class="cover d-flex flex-column flex-align-center">
+                                        <img class="img-cover" src="./img/sinister.jpeg" alt="">
+                                        <p class="p-white-bold pt-16 pb-8">Sinister</p>
+                                        <p class="p-xs-grey">Subtitle</p>
+                                    </div>
                                 </div>
-                            </div>
+                           </div>
                         </div>
 
                         <!-- for Eugen -->
@@ -365,10 +367,13 @@
                     </div>
 
                     
-                    <div class="big-music mb-8">
+                    <!-- <div class="big-music mb-8">
                         <div class="small-music"></div>
-                    </div>
-
+                    </div> -->
+                    <div class="larghezza d-flex ml-32">
+                        <input id="slider" type="range" min="0.01" max="5.00" step="0.01" oninput="rangeValue.innerText = this.value">
+                            <p id="rangeValue" class="ml-16"> min </p>
+                    </div> 
                     
                 </div>
 
@@ -380,8 +385,8 @@
                         <i class="fa-solid fa-volume-high pr-16 pt-4 icon option2""></i>
                     </div>
 
-                    <div class="">
-                        <input type="range"/>
+                    <div>
+                        <input id="volume" type="range"/>
                     </div>
                 </div>
             </footer>
